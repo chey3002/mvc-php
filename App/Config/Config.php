@@ -1,13 +1,7 @@
 <?php
 
-namespace App\Config;
-
-class Config
-{
-    const DB_HOST    = '127.0.0.1';
-    const DB_PORT    = '';
-    const DB_NAME    = '';
-    const DB_USER    = '';
-    const DB_PASS    = '';
-    const DB_CHARSET = 'utf8mb4';
-}
+define("DB_HOST","localhost");
+define("DB","examen_final");
+define("DB_USER","root");
+define("DB_PASS","");
+?>
